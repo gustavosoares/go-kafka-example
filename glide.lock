@@ -1,14 +1,14 @@
-hash: a2be17c9edecf962c0ac53a36aa45cc4c9fa3a8405f88bbcb199ad32fa960ed3
-updated: 2018-01-08T14:15:20.462043+13:00
+hash: 2b9ff3d0bd4c31e2396c582923c13c5dd596168cb579e93846cc81b3992c0a50
+updated: 2019-10-16T11:01:19.393375+13:00
 imports:
 - name: github.com/alecthomas/template
-  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  version: fb15b899a75114aa79cc930e33c46b577cc664b1
   subpackages:
   - parse
 - name: github.com/alecthomas/units
-  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+  version: f65c72e2690dc4b403c8bd637baf4611cd4c069b
 - name: github.com/davecgh/go-spew
-  version: a476722483882dd40b8111f0eb64e1d7f43f56e4
+  version: 782f4967f2dc4564575ca782fe2d04090b5faca8
   subpackages:
   - spew
 - name: github.com/eapache/go-resiliency
@@ -21,6 +21,21 @@ imports:
   version: 44cc805cf13205b55f69e14bcb69867d1ae92f98
 - name: github.com/golang/snappy
   version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/hashicorp/go-uuid
+  version: f32f5fe8d6a86bfd2a4f58998002f7b0b91cf78f
+- name: github.com/jcmturner/gofork
+  version: dc7c13fece037a4a36e2b3c69db4991498d30692
+  subpackages:
+  - encoding/asn1
+  - x/crypto/pbkdf2
+- name: github.com/klauspost/compress
+  version: 30993c63e1b02b47dd3878e74c8db50833706ecc
+  subpackages:
+  - fse
+  - huff0
+  - snappy
+  - zstd
+  - zstd/internal/xxhash
 - name: github.com/pierrec/lz4
   version: 08c27939df1bd95e881e2c2367a749964ad1fceb
 - name: github.com/pierrec/xxHash
@@ -30,7 +45,58 @@ imports:
 - name: github.com/rcrowley/go-metrics
   version: 1f30fe9094a513ce4c700b9a54458bbb0c96996c
 - name: github.com/Shopify/sarama
-  version: 3b1b38866a79f06deddf0487d5c27ba0697ccd65
+  version: 1358e9c6e61694cd61b2daae79f5aa4b8073c976
+- name: golang.org/x/crypto
+  version: 81e90905daefcd6fd217b62423c0908922eadb30
+  subpackages:
+  - md4
+  - pbkdf2
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - proxy
 - name: gopkg.in/alecthomas/kingpin.v2
   version: 947dcec5ba9c011838740e680966fd7087a71d0d
+- name: gopkg.in/jcmturner/aescts.v1
+  version: f6abebb3171c4c1b1fea279cb7c7325020a26290
+- name: gopkg.in/jcmturner/dnsutils.v1
+  version: 13eeb8d49ffb74d7a75784c35e4d900607a3943c
+- name: gopkg.in/jcmturner/gokrb5.v7
+  version: 363118e62befa8a14ff01031c025026077fe5d6d
+  subpackages:
+  - asn1tools
+  - client
+  - config
+  - credentials
+  - crypto
+  - crypto/common
+  - crypto/etype
+  - crypto/rfc3961
+  - crypto/rfc3962
+  - crypto/rfc4757
+  - crypto/rfc8009
+  - gssapi
+  - iana
+  - iana/addrtype
+  - iana/adtype
+  - iana/asnAppTag
+  - iana/chksumtype
+  - iana/errorcode
+  - iana/etypeID
+  - iana/flags
+  - iana/keyusage
+  - iana/msgtype
+  - iana/nametype
+  - iana/patype
+  - kadmin
+  - keytab
+  - krberror
+  - messages
+  - pac
+  - types
+- name: gopkg.in/jcmturner/rpc.v1
+  version: 99a8ce2fbf8b8087b6ed12a37c61b10f04070043
+  subpackages:
+  - mstypes
+  - ndr
 testImports: []
